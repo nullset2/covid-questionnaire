@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Priority:</strong>
+  <%= @assessment.priority %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @assessment.name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @assessment.last_name %>
+</p>
+
+<p>
+  <strong>Birthdate:</strong>
+  <%= @assessment.birthdate %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @assessment.city %>
+</p>
+
+<p>
+  <strong>Country:</strong>
+  <%= @assessment.country %>
+</p>
+
+<p>
+  <strong>Gender:</strong>
+  <%= @assessment.gender %>
+</p>
+
+<%= link_to 'Edit', edit_assessment_path(@assessment) %> |
+<%= link_to 'Back', assessments_path %>

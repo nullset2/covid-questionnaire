@@ -10,13 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_04_09_030618) do
+ActiveRecord::Schema.define(version: 2020_04_09_065333) do
 
   create_table "assessments", force: :cascade do |t|
     t.decimal "priority"
     t.string "name"
     t.string "last_name"
-    t.string "birthdate"
+    t.date "birthdate"
     t.string "city"
     t.string "country"
     t.string "gender"
